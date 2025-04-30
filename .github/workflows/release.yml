@@ -8,6 +8,7 @@ on:
 jobs:
   # push image to Docker Hub
   push:
+    if: false
     runs-on: ubuntu-latest
 
     steps:
